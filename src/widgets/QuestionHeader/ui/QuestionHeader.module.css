@@ -1,0 +1,15 @@
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navIcon {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.4;
+  cursor: default;
+}

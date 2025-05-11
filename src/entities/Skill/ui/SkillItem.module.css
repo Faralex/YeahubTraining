@@ -1,0 +1,27 @@
+.skillItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid #bababa;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: border 0.2s ease, color 0.2s ease;
+}
+
+.skillItem:hover {
+  border-color: #6a0bff;
+}
+
+.selected {
+  border: 2px solid #6a0bff;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}

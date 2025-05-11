@@ -1,0 +1,43 @@
+.questionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.questionText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a1a1a;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  text-align: left;
+}
+
+.bullet {
+  color: #8000ff;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.shortAnswer {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  text-align: left;
+  padding-right: 24px;
+}
+
+.toggleAnswer {
+  background: none;
+  border: none;
+  color: #8000ff;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 15px;
+}

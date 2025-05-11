@@ -1,0 +1,1 @@
+export {InterviewResultPage} from './ui/InterviewResultPage'

@@ -1,0 +1,34 @@
+.startBtn {
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-top: 32px;
+}
+
+.startBtn:hover {
+  background-color: #6900cc;
+}
+.interview {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.skillsWrapper {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}

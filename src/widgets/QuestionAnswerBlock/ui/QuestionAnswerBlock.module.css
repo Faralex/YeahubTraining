@@ -1,0 +1,38 @@
+.block {
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.blockTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #191919;
+  white-space: pre-wrap;
+}
+
+.toggle {
+  margin: 39px auto 22px;
+  background: none;
+  border: none;
+  color: #303030;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}

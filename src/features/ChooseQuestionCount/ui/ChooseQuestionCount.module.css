@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1.5px solid #bababa;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 115px;
+  height: 42px;
+}
+
+.counter button {
+  border: none;
+  background: none;
+  color: #6a0bff;
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+  font-weight: 200;
+}
+
+.counter button:hover {
+  opacity: 0.7;
+}
+
+.counter button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.counter span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #303030;
+}

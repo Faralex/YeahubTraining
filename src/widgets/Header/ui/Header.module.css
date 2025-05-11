@@ -1,0 +1,39 @@
+.header {
+  width: 97%;
+  height: 60px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.userIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.burger {
+  width: 28px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.burger span {
+  display: block;
+  height: 3px;
+  background-color: #333;
+  border-radius: 2px;
+}

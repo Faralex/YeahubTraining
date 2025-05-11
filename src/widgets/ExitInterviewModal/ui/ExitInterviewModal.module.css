@@ -1,0 +1,79 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 16px;
+  padding: 32px;
+  width: 100%;
+  max-width: 580px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.divider {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 28px;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.yes {
+  flex: 1;
+  padding: 14px 0;
+  background-color: #6a0bff;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.yes:hover {
+  background-color: #5e00d1;
+}
+
+.no {
+  flex: 1;
+  padding: 14px 0;
+  background-color: white;
+  color: #7900ff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1.5px solid #7900ff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.no:hover {
+  background-color: #f4eaff;
+}
