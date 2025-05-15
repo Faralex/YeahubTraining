@@ -3,11 +3,12 @@ import { useGetPublicQuestionByIdQuery } from "../../../entities/Question/api/qu
 import styles from "./QuestionDetailsPage.module.css";
 import { useState } from "react";
 import { stripHtml } from "../../../shared/lib/stripHtml";
-import { QuestionInfoPanel } from "../../../widgets/QuestionInfoPanel";
-import { useQuestionProgress } from "../../../features/SaveQuestionProgress";
-import { StudyControls } from "../../../features/SaveQuestionProgress";
-import { QuestionDetailsHeader } from "../../../widgets/QuestionDetailsHeader";
-import { QuestionAnswerBlock } from "../../../widgets/QuestionAnswerBlock";
+import { QuestionInfoPanel } from "../../../entities/Question/ui/QuestionInfoPanel";
+import { useQuestionProgress } from "../../../entities/Question/hooks/useQuestionProgress";
+
+import { StudyControls } from "../../../features/Question/SaveQuestionProgress";
+import { QuestionDetailsHeader } from "../../../entities/Question/ui/QuestionDetailsHeader";
+import { QuestionAnswerBlock } from "../../../entities/Question/ui/QuestionAnswerBlock";
 
 export const QuestionDetailsPage = () => {
   const { id } = useParams<{ id: string }>();

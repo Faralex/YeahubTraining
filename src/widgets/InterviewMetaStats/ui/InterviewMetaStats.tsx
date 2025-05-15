@@ -1,5 +1,5 @@
 import styles from "./InterviewMetaStats.module.css";
-import { CircleProgress } from "../../CircleProgress";
+import { CircleProgress } from "../../../shared/ui/CircleProgress";
 
 interface Props {
   total: number;

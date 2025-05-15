@@ -1,0 +1,38 @@
+.button {
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.small {
+  padding: 8px 16px;
+  font-size: 15px;
+}
+
+.gray {
+  border: 1px solid #d0d0d0;
+  color: #333;
+}
+
+.outlined:hover {
+  background-color: #6a0bff;
+  color: white;
+}
+
+.purple {
+  color: #6a0bff;
+  border-color: #6a0bff;
+}
+
+.active {
+  border: 1px solid #6a0bff;
+  background-color: white;
+  color: #333;
+}

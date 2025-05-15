@@ -75,19 +75,3 @@
   justify-content: flex-end;
   margin-top: 32px;
 }
-
-.retryButton {
-  background-color: #6a0bff;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.retryButton:hover {
-  background-color: #480dc3;
-}

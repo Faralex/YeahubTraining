@@ -1,6 +1,6 @@
 import styles from "./InterviewResultStats.module.css";
 import { InterviewResultStatsProps } from "../types";
-import { CircleProgress } from "../../CircleProgress";
+import { CircleProgress } from "../../../shared/ui/CircleProgress";
 
 export const InterviewResultStats = ({ total, knowCount }: InterviewResultStatsProps) => {
   const knowPercent = Math.round((knowCount / total) * 100);

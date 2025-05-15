@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.container p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.modes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.modeBtn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #d0d0d0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: border 0.2s ease, color 0.2s ease;
+}
+
+.modeBtn:hover {
+  border-color: #6a0bff;
+}
+
+.active {
+  border: 2px solid #6a0bff;
+  font-weight: 600;
+}

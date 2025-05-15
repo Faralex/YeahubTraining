@@ -1,15 +1,15 @@
 import { useLocation } from "react-router-dom";
 import styles from "./QuestionPage.module.css";
 import { InterviewProgressBar } from "../../../widgets/InterviewProgressBar";
-import { useFetchInterviewQuestions } from "../../../features/startInterview";
-import { useInterviewFlow } from "../../../features/startInterview";
+import { useFetchInterviewQuestions } from "../../../features/Interview/startInterview";
+import { useInterviewFlow } from "../../../features/Interview/startInterview";
 import { ExitInterviewModal } from "../../../widgets/ExitInterviewModal";
 import { useState } from "react";
 
-import { AnswerButtons } from "../../../widgets/AnswerButtons";
+import { AnswerButtons } from "../../../entities/Question/ui/AnswerButtons";
 import { FooterControls } from "../../../widgets/FooterControls";
-import { QuestionHeader } from "../../../widgets/QuestionHeader";
-import { QuestionContent } from "../../../widgets/QuestionContent";
+import { QuestionHeader } from "../../../entities/Question/ui/QuestionHeader";
+import { QuestionContent } from "../../../entities/Question/ui/QuestionContent";
 
 export const QuestionPage = () => {
   const { search } = useLocation();

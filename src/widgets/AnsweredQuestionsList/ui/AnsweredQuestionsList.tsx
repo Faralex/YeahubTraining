@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 import resultIcon from "../../../shared/assets/icons/resultIcon.svg";
 import UpIcon from "../../../shared/assets/icons/up.svg";
 import DownIcon from "../../../shared/assets/icons/down.svg";
+import { ActionButton } from "../../../shared/ui/ActionButton/ActionButton";
+import { retryInterview } from "../../../features/Interview/startInterview/lib/retryInterview";
 
 export const AnsweredQuestionsList = ({ questions, answers }: AnsweredQuestionsListProps) => {
   const navigate = useNavigate();
@@ -31,28 +33,11 @@ export const AnsweredQuestionsList = ({ questions, answers }: AnsweredQuestionsL
           );
         })}
       </div>
+
       <div className={styles.retryWrapper}>
-        <button
-          className={styles.retryButton}
-          onClick={() => {
-            const skillIds = Array.from(
-              new Set(questions.flatMap((q) => q.skills?.map((s) => s.id) ?? []))
-            );
-            const complexity = Array.from(new Set(questions.map((q) => q.complexity)));
-            const count = questions.length;
-
-            const params = new URLSearchParams({
-              skills: skillIds.join(","),
-              complexity: complexity.join(","),
-              count: count.toString(),
-            });
-
-            localStorage.setItem("currentInterviewQuestions", JSON.stringify(questions));
-            navigate("/questions");
-          }}
-        >
+        <ActionButton variant="repeatBtn" onClick={() => retryInterview(navigate, questions)}>
           Пройти заново →
-        </button>
+        </ActionButton>
       </div>
     </div>
   );

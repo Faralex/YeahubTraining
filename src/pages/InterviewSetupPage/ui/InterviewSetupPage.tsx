@@ -1,9 +1,9 @@
 import styles from "./InterviewSetupPage.module.css";
-import { ChooseSkills } from "../../../features/ChooseSkills";
-import { ChooseQuestionCount } from "../../../features/ChooseQuestionCount";
-import { ChooseQuestionComplexity } from "../../../features/ChooseQuestionComplexity";
-import { ChooseQuestionMode } from "../../../features/ChooseQuestionMode";
-import { StartInterviewButton } from "../../../features/startInterviewButton";
+import { ChooseSkills } from "../../../features/Skill/ChooseSkills";
+import { ChooseQuestionCount } from "../../../features/Question/ChooseQuestionCount";
+import { ChooseQuestionComplexity } from "../../../features/Question/ChooseQuestionComplexity";
+import { ChooseQuestionMode } from "../../../features/Question/ChooseQuestionMode";
+import { StartInterviewButton } from "../../../features/Interview/startInterviewButton";
 
 export const InterviewSetupPage = () => {
   return (

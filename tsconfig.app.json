@@ -22,5 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "src/widgets/QuestionHeader/ui/QuestionHeader.tsx"]
+  "include": ["src", "src/entities/Question/ui/QuestionHeader/ui/QuestionHeader.tsx"]
 }
